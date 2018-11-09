@@ -25,9 +25,9 @@ class App extends Component {
             position: 'absolute',
             top: '100px',
             padding: '0 20%',
-          }}>This simple DApp executes smart-contract method which emits event, and DApp subscribes to this event and shows toast with event param.
+          }}>This simple DApp executes smart-contract method which emits an event, and DApp subscribes to this event and shows a toast with event param.
             <h4>
-              <i>Note:</i> Smart-contracts are deployed to POA core and Sokol networks.
+              <i>Note:</i> Smart-contracts have been deployed to POA core and Sokol networks.
             </h4>
           </h2>
           <Button onClick={() => this.executeContract()} disabled={this.state.isLoading || this.state.isRejected || (this.state.networkID !== 77 && this.state.networkID !== 99)}>Execute Contract</Button>
