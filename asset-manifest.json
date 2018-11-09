@@ -1,7 +1,7 @@
 {
   "main.css": "/event-listener-dapp/static/css/main.06b68960.chunk.css",
-  "main.js": "/event-listener-dapp/static/js/main.599f489e.chunk.js",
-  "main.js.map": "/event-listener-dapp/static/js/main.599f489e.chunk.js.map",
+  "main.js": "/event-listener-dapp/static/js/main.7a26af0e.chunk.js",
+  "main.js.map": "/event-listener-dapp/static/js/main.7a26af0e.chunk.js.map",
   "static/css/1.d294e1f8.chunk.css": "/event-listener-dapp/static/css/1.d294e1f8.chunk.css",
   "static/js/1.12b647cf.chunk.js": "/event-listener-dapp/static/js/1.12b647cf.chunk.js",
   "static/js/1.12b647cf.chunk.js.map": "/event-listener-dapp/static/js/1.12b647cf.chunk.js.map",
@@ -10,6 +10,6 @@
   "static/css/1.d294e1f8.chunk.css.map": "/event-listener-dapp/static/css/1.d294e1f8.chunk.css.map",
   "static/css/main.06b68960.chunk.css.map": "/event-listener-dapp/static/css/main.06b68960.chunk.css.map",
   "index.html": "/event-listener-dapp/index.html",
-  "precache-manifest.345ea2874a78cf82ea5c8b19f6af6f56.js": "/event-listener-dapp/precache-manifest.345ea2874a78cf82ea5c8b19f6af6f56.js",
+  "precache-manifest.8e08248910cf46f3287d95bf2677f9d7.js": "/event-listener-dapp/precache-manifest.8e08248910cf46f3287d95bf2677f9d7.js",
   "service-worker.js": "/event-listener-dapp/service-worker.js"
 }
