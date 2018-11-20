@@ -8,7 +8,7 @@
     "react-dom": "^16.6.1",
     "react-scripts": "2.1.1",
     "react-toastify": "^4.4.0",
-    "web3": "^0.20.6"
+    "web3": "^0.20.7"
   },
   "scripts": {
     "start": "react-scripts start",
