@@ -102,6 +102,7 @@ class App extends Component {
     const networkID = this.web3.version.network;
     this.EventEmitterContractInstance = EventEmitterContract.at(config.contract.addresses[networkID])
     const contractEvent = this.EventEmitterContractInstance.FunctionCalled()
+    const contractEvent2 = this.EventEmitterContractInstance.FunctionCalled2()
     this.setState({
       "networkID": Number(networkID)
     })
@@ -111,9 +112,22 @@ class App extends Component {
       })
       if (error) {
         console.log(error)
+        return
       }
       console.log(result)
       this.notify(`Event has been successfully emitted with id ${result.args._id} !`)
+    })
+
+    contractEvent2.watch((error, result) => {
+      this.setState({
+        "isLoading": false
+      })
+      if (error) {
+        console.log(error)
+        return
+      }
+      console.log(result)
+      this.notify(`The second event has been successfully emitted with id ${result.args._id} !`)
     })
   }
 
